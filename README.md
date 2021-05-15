@@ -9,7 +9,6 @@ The purpose of this project is to build a higher accurate model and  identify th
   * [Building CNN](#Building_CNN)
   * [Model_Building](#Model_Building)
   * [Result](#Result)
-  * [Business_Recommendation](#Business_Recommendation)
   * [Credit](#Credit)
   
 ## Overview
@@ -43,41 +42,36 @@ This dataset consists of below mentioned attributes:
 
 ## Data Preprocessing
 
+1. Encoding Categorical Data - Geography
+2. feature Scaling on traina and test dataset
+3. Applying predefined specification to training and testing dataset
 
-### Steps to Data Preprocessing
-1. Image Rescaling for both training and testing data set
-2. Applying predefined specification to training and testing dataset
 
-
-## Building CNN
+## Building ANN
 ### Steps to Build Convolutional Neural Netwrok
 1. Import required libraries
-2. Initialize CNN and add Convolutional layer
-3. Pooling
-4. Add two convolutional layer
-5. Flattening
-6. Fully connected layer and output layer
+2. Initialize ANN and add Convolutional layer
+3. Adding the input layer and the first hidden layer
+4. Adding the second hidden layer
+5. Adding the output layer
 
-<img src="/Builiding%20CNN.PNG" width="300">
+
 
 
 ## Model_Building
 ### Steps to model Building
-1. Compile the CNN model
-2. Training the CNN on Training set
-3.  Evaluating on Testing set
+1. Compile the ANN model
+2. Training the ANN  on Training set
+3. Evaluating on Testing set
 4.  Comparison of accuracy and loss function
 
 
     
 ## Result
-1. The accuracy of model  is 96.82%. The accuaracy of model should be next to 100% in medical domain problems .
+1. The accuracy of model  is 86.60%.
 2. Loss is the penalty for a bad prediction. Basically the aim is to make the validation loss as low as possible.
 
-## Business_Recommendation
-* CNN's are best for image classification and gives superb accuracy. Also computation is much less compared to simple ANN .
-* The algorithm generated will be helpful in the area where the expert in microscopic analysis may not be available.
 
 ## Credit
-This project has been done as a course project on CNN deep learning technique.
+This project has been done as a course project on udemy - ANN deep learning technique.
 
