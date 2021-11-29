@@ -6,7 +6,7 @@ The purpose of this project is to build a higher accurate model and  identify th
   * [Problem_Definition](#Problem_Definition)
   * [Dataset_Description](#Dataset_Description)
   * [Data Preprocessing](#Data_Preprocessing)
-  * [Building CNN](#Building_CNN)
+  * [Building ANN](#Building_ANN)
   * [Model_Building](#Model_Building)
   * [Result](#Result)
   * [Credit](#Credit)
